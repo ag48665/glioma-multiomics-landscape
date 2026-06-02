@@ -1,0 +1,18 @@
+project:
+  name: glioma-multiomics-landscape
+
+cohorts:
+  - TCGA-GBM
+  - TCGA-LGG
+
+driver_genes:
+  - IDH1
+  - TP53
+  - ATRX
+  - EGFR
+  - PTEN
+  - NF1
+
+analysis:
+  top_variable_genes: 1000
+  top_heatmap_genes: 50

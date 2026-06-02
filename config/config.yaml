@@ -5,6 +5,11 @@ cohorts:
   - TCGA-GBM
   - TCGA-LGG
 
+data_types:
+  expression: "RNA-seq STAR Counts"
+  mutations: "Somatic mutations MAF"
+  clinical: "Clinical metadata"
+
 driver_genes:
   - IDH1
   - TP53

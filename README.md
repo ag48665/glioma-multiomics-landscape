@@ -82,6 +82,45 @@ figures/
 Snakefile
 README.md
 ```
+##  Results
+# Results
+
+## Mutation landscape of gliomas
+
+Somatic mutation analysis revealed distinct genomic profiles between glioblastoma (GBM) and lower-grade glioma (LGG). In GBM, the most frequently mutated genes were **PTEN (33%)**, **TP53 (31%)**, and **EGFR (23%)**, whereas LGG was characterized by a markedly higher prevalence of **IDH1 (77%)**, **TP53 (48%)**, and **ATRX (37%)** mutations.
+
+Oncoplot visualization demonstrated the classical molecular distinction between glioma subtypes. GBM samples showed enrichment of receptor tyrosine kinase and PI3K pathway alterations, while LGG samples were dominated by IDH1-associated molecular signatures.
+
+## Co-occurrence and mutual exclusivity patterns
+
+Mutual exclusivity analysis identified significant relationships between major glioma driver genes. A strong mutually exclusive pattern was observed between **EGFR** and **IDH1**, reflecting their association with distinct glioma subtypes. Conversely, significant co-occurrence was detected between **ATRX** and **TP53**, consistent with the molecular profile of IDH-mutant astrocytomas.
+
+Chord diagram analysis further highlighted recurrent co-mutation networks involving ATRX, TP53, CIC, and FUBP1, suggesting subtype-specific genomic cooperation.
+
+## Survival analysis
+
+Kaplan–Meier analysis demonstrated substantial survival differences between GBM and LGG patients. LGG patients exhibited significantly prolonged overall survival compared with GBM patients, reflecting the known biological aggressiveness of glioblastoma.
+
+Additional stratification by IDH1 mutation status revealed that patients harboring IDH1 mutations experienced markedly improved survival outcomes relative to IDH1 wild-type tumors. This finding supports the established prognostic value of IDH1 alterations in diffuse gliomas.
+
+## Differential gene expression
+
+Differential expression analysis between GBM and LGG identified a large set of significantly deregulated genes. Volcano plot visualization demonstrated widespread transcriptional differences between tumor types, with thousands of genes exhibiting significant fold changes.
+
+Several highly dysregulated genes showed strong enrichment in either GBM or LGG, highlighting distinct transcriptional programs associated with tumor progression, metabolism, and cellular differentiation.
+
+## Tumor heterogeneity and mutational processes
+
+Rainfall plots revealed heterogeneous mutation clustering across individual GBM genomes, suggesting localized hypermutation events and variable mutational densities across chromosomes.
+
+Transition/transversion (Ti/Tv) analysis showed characteristic nucleotide substitution patterns, with C>T transitions representing a dominant mutational class. These patterns are consistent with previously reported mutational processes in glioma genomes.
+
+## Multi-omics integration
+
+Integrated visualization using alluvial and comparative oncoplot analyses demonstrated clear separation between GBM and LGG molecular architectures.
+
+LGG tumors were strongly associated with IDH1-driven genomic programs, whereas GBM samples displayed enrichment of EGFR and PTEN alterations. These findings collectively support the concept that GBM and LGG represent biologically distinct disease entities despite sharing a common glial origin.
+
 
 ## Technologies
 

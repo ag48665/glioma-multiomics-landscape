@@ -251,7 +251,6 @@ These findings are consistent with the modern molecular classification of diffus
 
 ## Author
 Agata Gabara
-Glioma multi-omics analysis project
-GitHub: [ag48665](https://github.com/ag48665)
+
 
 

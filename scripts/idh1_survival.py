@@ -29,4 +29,10 @@ surv_gbm.to_csv(
     index=False
 )
 
+surv_gbm[["submitter_id", "IDH1_status"]].to_csv(
+    "results/tables/idh1_status.tsv",
+    sep="\t",
+    index=False
+)
+
 print(surv_gbm["IDH1_status"].value_counts())

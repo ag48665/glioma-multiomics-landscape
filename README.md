@@ -19,6 +19,52 @@ The workflow includes:
 - multi-omics visualization
 
 ---
+## Main Findings
+
+### Distinct mutation landscapes of GBM and LGG
+
+![Co-oncoplot](figures/co_oncoplot_gbm_lgg.png)
+
+### Survival differences between GBM and LGG
+
+![Kaplan-Meier](figures/kaplan_meier_gbm_vs_lgg.png)
+
+### Transcriptomic differences
+
+![Volcano Plot](figures/volcano_gbm_lgg.png)
+
+---
+
+## Skills Demonstrated
+
+### Cancer Genomics
+
+- Somatic mutation analysis
+- Driver gene identification
+- Tumor heterogeneity analysis
+- Mutation burden analysis
+- Cancer transcriptomics
+
+### Bioinformatics
+
+- Differential expression analysis
+- Survival analysis
+- Multi-omics integration
+- TCGA data processing
+- Genomic data visualization
+
+### Tools and Frameworks
+
+- R
+- Python
+- DESeq2
+- maftools
+- survival
+- ggplot2
+- circlize
+- TCGAbiolinks
+
+---
 
 ## Workflow
 
@@ -221,6 +267,15 @@ glioma-multiomics-landscape/
 * TCGA / GDC data
 
 ---
+## Key Takeaway
+
+Integrated analysis of TCGA GBM and LGG datasets revealed distinct genomic, transcriptomic, and clinical profiles between glioma subtypes.
+
+IDH1 mutations were strongly associated with lower-grade gliomas and improved survival, whereas GBM was characterized by EGFR/PTEN alterations, increased aggressiveness, and poor prognosis.
+
+These findings highlight the importance of multi-omics approaches for understanding glioma biology and patient stratification.
+
+---
 
 ## Interpretation
 
@@ -250,7 +305,19 @@ These findings are consistent with the modern molecular classification of diffus
 ---
 
 ## Author
-Agata Gabara
 
+**Agata Gabara**
 
+Incoming MSc Bioinformatics Student
 
+Research Interests:
+
+- Cancer Genomics
+- Single-Cell Transcriptomics
+- Computational Oncology
+- Multi-Omics Integration
+- Machine Learning for Biology
+
+GitHub: https://github.com/ag48665
+
+LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/

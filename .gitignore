@@ -1,10 +1,13 @@
 data/raw/
 data/processed/
-results/
-figures/*.png
-figures/*.pdf
-figures/*.svg
+
 .snakemake/
+
 *.rds
 *.RData
+*.tar.gz
+
 .DS_Store
+
+GDCdata/
+data/

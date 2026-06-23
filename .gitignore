@@ -1,13 +1,4 @@
-data/raw/
-data/processed/
-
-.snakemake/
-
-*.rds
-*.RData
-*.tar.gz
-
-.DS_Store
-
-GDCdata/
-data/
+results/
+figures/*.png
+figures/*.pdf
+figures/*.svg
